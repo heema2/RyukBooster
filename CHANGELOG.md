@@ -6,7 +6,7 @@ Users can also download installers from [heema2/RyukBooster](https://github.com/
 
 ### Catalog v6 — 2026-09-03
 
-- No catalog field changes recorded for this publish.
+- **Changed:** Azan Desktop (azan_desktop): name: "Azan Desktop" → "Azan Desktop v2"
 
 ## [1.5.3] — 2026-09-03
 
