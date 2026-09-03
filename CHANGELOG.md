@@ -4,6 +4,10 @@ All notable updates to **Ryuk Booster** — app releases and catalog refreshes.
 
 Users can also download installers from [heema2/RyukBooster](https://github.com/heema2/RyukBooster/releases) and follow the live update channel at [heema2/RyukBooster-Updates](https://github.com/heema2/RyukBooster-Updates/releases).
 
+### Catalog v6 — 2026-09-03
+
+- No catalog field changes recorded for this publish.
+
 ## [1.5.3] — 2026-09-03
 
 - Immediate update progress popup with status and percent
