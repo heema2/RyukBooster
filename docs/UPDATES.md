@@ -36,12 +36,16 @@ The custom installer is a **single EXE** (payload embedded). No payload folder r
 
 ### Catalog only (links / apps)
 1. Edit in Ryuk Admin, then **Save local**, then **Publish catalog**
-2. Users online get a catalog refresh dialog and footer `Catalog updated (vN)` (not a full app reinstall)
+2. Confirm the change summary dialog
+3. Users online get a catalog refresh with progress popup (not a full app reinstall)
+4. Admin prepends the same summary into **CHANGELOG.md** on GitHub (Updates + main repos)
 
 ### Full app update
 1. Bump version and run `installer\build-release.bat`
 2. In Admin use **Publish app update** with `dist\RyukBooster-Update.zip`
-3. Also run `tools\publish-installer-github.ps1` so the public installer page stays current
+3. Confirm the change summary (version, notes, catalog edits)
+4. Also run `tools\publish-installer-github.ps1` so the public installer page stays current
+5. **CHANGELOG.md** is updated automatically with the app entry + catalog summary
 
 ## Client behavior
 
@@ -56,7 +60,7 @@ The custom installer is a **single EXE** (payload embedded). No payload folder r
 
 ### Admin publishing UX
 
-Ryuk Admin confirms before **Remove**, **Save local**, **Reload**, **Publish catalog**, and **Publish app**, and shows a change summary (added / removed / field edits) so you can verify before shipping an update.
+Ryuk Admin confirms before **Remove**, **Save local**, **Reload**, **Publish catalog**, and **Publish app**, and shows a change summary (added / removed / field edits) so you can verify before shipping an update. The same summary is written to public **[CHANGELOG.md](../CHANGELOG.md)** on each publish.
 
 
 ## Admin security
