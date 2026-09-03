@@ -54,8 +54,10 @@ The custom installer is a **single EXE** (payload embedded). No payload folder r
 | Online + up to date | Footer: You have the latest version |
 | Back online / every ~60s / Apps page | Automatic recheck (popup only when work is needed) |
 
-Catalog-only GitHub releases are published as **prerelease** so they do not hide the latest app release from `/releases/latest`.
-Clients also read the live release feed (not only the CDN-cached latest URL) so catalog changes show up quickly.
+### Admin publishing UX
+
+Ryuk Admin confirms before **Remove**, **Save local**, **Reload**, **Publish catalog**, and **Publish app**, and shows a change summary (added / removed / field edits) so you can verify before shipping an update.
+
 
 ## Admin security
 
