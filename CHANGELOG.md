@@ -4,6 +4,10 @@ All notable updates to **Ryuk Booster** — app releases and catalog refreshes.
 
 Users can also download installers from [heema2/RyukBooster](https://github.com/heema2/RyukBooster/releases) and follow the live update channel at [heema2/RyukBooster-Updates](https://github.com/heema2/RyukBooster-Updates/releases).
 
+### Catalog v7 — 2026-09-03
+
+- [Changed] Azan Desktop v2 (azan_desktop): downloadUrl: "https://drive.google.com/file/d/1JIfs7YOgJAby93cRy2jNOpS-..." → "https://github.com/heema2/Azan-Desktop/releases/download/..."
+
 ## [1.5.5] — 2026-09-03
 
 - **PC Optimizer** (renamed from Cleaner): hero PC Health ring, Scan Now → Optimize Now flow, module checkboxes, live activity log, result cards
