@@ -48,10 +48,14 @@ The custom installer is a **single EXE** (payload embedded). No payload folder r
 | State | Behavior |
 |---|---|
 | Offline | Footer: Offline — updates paused |
-| Online + newer app | Forced update dialog (cannot skip) |
-| Online + newer catalog | Info dialog + silent reload; footer Catalog updated |
+| Online + newer app | Progress popup opens immediately, downloads, installs, restarts |
+| Online + newer catalog | Progress popup opens immediately with download bar, then Finished |
+| Check now (Settings) | Progress popup opens immediately while checking |
 | Online + up to date | Footer: You have the latest version |
-| Back online / every ~60s / Apps page | Automatic recheck |
+| Back online / every ~60s / Apps page | Automatic recheck (popup only when work is needed) |
+
+Catalog-only GitHub releases are published as **prerelease** so they do not hide the latest app release from `/releases/latest`.
+Clients also read the live release feed (not only the CDN-cached latest URL) so catalog changes show up quickly.
 
 ## Admin security
 
