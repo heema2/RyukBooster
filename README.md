@@ -27,6 +27,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white" alt="Platform"/>
   <img src="https://img.shields.io/badge/Version-1.5.3-C62A2A" alt="Version"/>
   <img src="https://img.shields.io/badge/License-Proprietary-lightgrey" alt="License"/>
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog-Track%20updates-2D2D2D" alt="Changelog"/></a>
 </p>
 
 ---
@@ -164,6 +165,7 @@ Checks also run about every **60 seconds**, when you open **Apps**, and when the
 | ⬇️ Latest installer | https://github.com/heema2/RyukBooster/releases/download/latest-installer/RyukBooster-Setup-latest.exe |
 | 🏷️ All releases | https://github.com/heema2/RyukBooster/releases |
 | 📡 Updates channel | https://github.com/heema2/RyukBooster-Updates |
+| 📝 Changelog | [CHANGELOG.md](CHANGELOG.md) |
 | 📘 Update docs | [docs/UPDATES.md](docs/UPDATES.md) |
 
 ---
