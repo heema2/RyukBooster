@@ -56,7 +56,8 @@ The custom installer is a **single EXE** (payload embedded). No payload folder r
 | Online + newer catalog | Progress popup opens immediately with download bar, then Finished |
 | Check now (Settings) | Progress popup opens immediately while checking |
 | Online + up to date | Footer: You have the latest version |
-| Back online / every ~60s / Apps page | Automatic recheck (popup only when work is needed) |
+| Back online / every **1 hour** / app relaunch | Automatic recheck (popup only when work is needed) |
+| Settings → Check now | Immediate interactive check |
 
 ### Admin publishing UX
 
