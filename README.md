@@ -24,8 +24,13 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/heema2/Ryuk-Dev"><img src="https://img.shields.io/badge/Hub-Ryuk--Dev-1A1A1A?style=for-the-badge&logo=github" alt="Ryuk-Dev"/></a>
+  <a href="https://discord.com/users/198843596558958601"><img src="https://img.shields.io/badge/Discord-Ryuk-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white" alt="Platform"/>
-  <img src="https://img.shields.io/badge/Version-1.5.5-C62A2A" alt="Version"/>
+  <img src="https://img.shields.io/badge/Version-1.5.6-C62A2A" alt="Version"/>
   <img src="https://img.shields.io/badge/License-Proprietary-lightgrey" alt="License"/>
   <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog-Track%20updates-2D2D2D" alt="Changelog"/></a>
 </p>
@@ -47,6 +52,19 @@ Ryuk Booster is a dark-themed Windows utility that helps you set up and maintain
 | 🔄 | **Auto updates** | Mandatory app updates + live catalog refreshes over GitHub Releases |
 
 Close the window and the app stays in the **system tray** — use **Quit** from the tray menu when you are done.
+
+---
+
+## 🖼️ Look & feel
+
+<p align="center">
+  <img src="docs/assets/home.png" alt="Home" width="46%"/>
+  &nbsp;
+  <img src="docs/assets/apps.png" alt="Apps catalog" width="46%"/>
+</p>
+
+> **📌 Repository notice** — Public product page + official installer. **Source code is not published.**  
+> Studio hub: **[Ryuk-Dev](https://github.com/heema2/Ryuk-Dev)**
 
 ---
 
@@ -165,6 +183,8 @@ Checks also run about every **60 seconds**, when you open **Apps**, and when the
 | ⬇️ Latest installer | https://github.com/heema2/RyukBooster/releases/download/latest-installer/RyukBooster-Setup-latest.exe |
 | 🏷️ All releases | https://github.com/heema2/RyukBooster/releases |
 | 📡 Updates channel | https://github.com/heema2/RyukBooster-Updates |
+| 🏠 Ryuk Developments | [github.com/heema2/Ryuk-Dev](https://github.com/heema2/Ryuk-Dev) |
+| 💬 Discord | [discord.com/users/198843596558958601](https://discord.com/users/198843596558958601) |
 | 📝 Changelog | [CHANGELOG.md](CHANGELOG.md) |
 | 📘 Update docs | [docs/UPDATES.md](docs/UPDATES.md) |
 
@@ -173,5 +193,8 @@ Checks also run about every **60 seconds**, when you open **Apps**, and when the
 <p align="center">
   <img src="docs/assets/logo.png" width="48" alt=""/>
   <br/>
-  <sub>© 2026 Ryuk · Built for Windows 10 &amp; 11</sub>
+  <sub>© 2026 Ryuk Developments · Built for Windows 10 &amp; 11<br/>
+  <a href="https://github.com/heema2/Ryuk-Dev">Ryuk-Dev</a> ·
+  <a href="https://discord.com/users/198843596558958601">Discord</a> ·
+  <a href="https://github.com/heema2">@heema2</a></sub>
 </p>
