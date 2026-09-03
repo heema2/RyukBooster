@@ -4,6 +4,21 @@ All notable updates to **Ryuk Booster** — app releases and catalog refreshes.
 
 Users can also download installers from [heema2/RyukBooster](https://github.com/heema2/RyukBooster/releases) and follow the live update channel at [heema2/RyukBooster-Updates](https://github.com/heema2/RyukBooster-Updates/releases).
 
+## [1.5.5] — 2026-09-03
+
+- **PC Optimizer** (renamed from Cleaner): hero PC Health ring, Scan Now → Optimize Now flow, module checkboxes, live activity log, result cards
+- **Duplicate Finder**: centered scan ring, progress animation, reclaimable stats, detailed clean summary
+- **Startup Manager**: app icons, Task Manager-style impact, confirmation before remove, Removed list with Restore
+- Sidebar regrouped: System / Apps / General; selected-page highlight
+- **Windows Apps** + **Uninstaller** (spelling fixed); app card labels wrap fully (no more clipped chips)
+- Logs: search by date/time/message, newest first; clearer application vs catalog update wording
+- Update checks: every **1 hour** while running (plus launch / reconnect / Check now) — no more frequent manifest polling
+
+## [1.5.4] — 2026-09-03
+
+- Fixed missing Apps page logos (all catalog icons now ship in `Assets/Icons`)
+- Icon loader also checks installed app executables and the local install Assets folder
+
 ### Catalog v6 — 2026-09-03
 
 - **Changed:** Azan Desktop (azan_desktop): name: "Azan Desktop" → "Azan Desktop v2"
