@@ -4,6 +4,10 @@ All notable updates to **Ryuk Booster** — app releases and catalog refreshes.
 
 Users can also download installers from [heema2/RyukBooster](https://github.com/heema2/RyukBooster/releases) and follow the live update channel at [heema2/RyukBooster-Updates](https://github.com/heema2/RyukBooster-Updates/releases).
 
+### Catalog v10 — 2026-09-04
+
+- [Changed] Azan Desktop (azan_desktop): icon: "Icons/azan_desktop.png" → "Icons/azan_desktop_icon"
+
 ### Catalog v9 — 2026-09-04
 
 - [Changed] Azan Desktop (azan_desktop): downloadUrl: "https://github.com/heema2/Azan-Desktop/releases/download/..." → "https://github.com/heema2/Azan-Desktop/releases/download/..."
